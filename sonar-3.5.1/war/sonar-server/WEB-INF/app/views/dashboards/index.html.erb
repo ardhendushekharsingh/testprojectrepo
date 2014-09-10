@@ -1,0 +1,16 @@
+<div class="admin_page">
+<div id="my_dasboards">
+<h1><%= message(@global ? 'dashboard.my_global_dashboards' : 'dashboard.my_project_dashboards') -%></h1>
+<%= render_partial :partial => 'my_dashboards', :locals => { :is_admin => is_admin? } %>
+<h1><%= message('dashboard.available_dashboards') -%></h1>
+<%= render_partial :partial => 'available_dashboards', :locals => { :is_admin => is_admin? } %>
+</div>
+<div id="create_dashboard">
+<%= render :partial => 'dashboards/create' %>
+</div>
+</div>
+<% if params[:highlight] %>
+<script type="text/javascript">
+new Effect.Highlight('dashboard-<%= h params[:highlight] -%>', {duration: 2, startcolor: '#cae3f2'});
+</script>
+<% end %>

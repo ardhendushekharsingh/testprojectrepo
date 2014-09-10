@@ -1,0 +1,15 @@
+findbugs,false,sonar-findbugs-plugin-1.2.jar|bc7b831dce659cbfa238c0d6f961409b
+groovy,false,sonar-groovy-plugin-0.6.jar|d8c15cae14475b319234dfc8144c135b
+jacoco,false,sonar-jacoco-plugin-1.2.jar|5cd1d5ceeafede1c086db50819d55d47
+l10nen,true,sonar-l10n-en-plugin-3.5.1.jar|c90b199991488e4c4c96e4ef9ee53fcf
+surefire,false,sonar-surefire-plugin-1.2.jar|65c04cca46f98eb2b7a796856209128b
+cpd,true,sonar-cpd-plugin-3.5.1.jar|9b42bbed8bf2b902159ab7f350e1d35d
+checkstyle,false,sonar-checkstyle-plugin-1.2.jar|b3ec75aa6a56e4e264dc6794ecdc4168
+pmd,false,sonar-pmd-plugin-1.2.jar|3f50818b39e89678bb52b592384f8dec
+java,false,sonar-java-plugin-1.2.jar|8746666d75f7cd8e1b9bb9852e1ebd68
+core,true,sonar-core-plugin-3.5.1.jar|91e38e5d5268560915ea08e7a05614da
+dbcleaner,true,sonar-dbcleaner-plugin-3.5.1.jar|46c531b5ddb43a371964fe82c8a0f898
+cobertura,false,sonar-cobertura-plugin-1.2.jar|adf46103923000a368b85d8098065576
+squidjava,false,sonar-squid-java-plugin-1.2.jar|e053a41916ddf1633f3812a2c1709482
+emailnotifications,true,sonar-email-notifications-plugin-3.5.1.jar|4702374614842c58d0b7d2be1144874f
+design,true,sonar-design-plugin-3.5.1.jar|d7ace56b431141cb1fce4f56bd56ad9d
